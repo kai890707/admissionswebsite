@@ -1638,7 +1638,7 @@ section.featured-product {
 section.featured-product:before {
   position: absolute;
   content: "";
-  background-image: url(../images/testimonials-left-dec.png);
+  background-image: url(../images/testimonials-left-dec-lightBlue.png);
   left: 0px;
   top: -140px;
   width: 593px;
@@ -1649,7 +1649,7 @@ section.featured-product:before {
 section.featured-product:after {
   position: absolute;
   content: "";
-  background-image: url(../images/testimonials-right-dec.png);
+  background-image: url(../images/testimonials-right-dec-lightBlue.png);
   right: 0px;
   bottom: -140px;
   width: 632px;
