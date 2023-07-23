@@ -1403,7 +1403,7 @@ section.our-team .section-heading p {
 section.our-team:before {
   position: absolute;
   content: "";
-  background-image: url(../images/our-courses-left-dec.png);
+  background-image: url(../images/our-courses-left-dec-lightBlue.png);
   left: 45px;
   top: -140px;
   width: 291px;
@@ -1414,7 +1414,7 @@ section.our-team:before {
 section.our-team:after {
   position: absolute;
   content: "";
-  background-image: url(../images/our-courses-right-dec.png);
+  background-image: url(../images/our-courses-right-dec-lightBlue.png);
   right: 45px;
   top: -140px;
   width: 291px;

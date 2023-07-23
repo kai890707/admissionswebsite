@@ -34,7 +34,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <title>EduWell - Education HTML5 Template</title>
+    <title></title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -67,19 +67,37 @@ https://templatemo.com/tm-573-eduwell
               <!-- ***** Logo End ***** -->
               <!-- ***** Menu Start ***** -->
               <ul class="nav">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="index.html">Services</a></li>
-                <li><a href="index.html">Courses</a></li>
+                <li class="scroll-to-section">
+                  <a href="#top" class="active">首頁</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="https://sites.google.com/mail.nknu.edu.tw/projects"
+                    >歷年專題</a
+                  >
+                </li>
+                <li class="scroll-to-section">
+                  <a
+                    href="https://sites.google.com/mail.nknu.edu.tw/universitydepartment/"
+                    >大學部招生專區</a
+                  >
+                </li>
                 <li class="has-sub">
-                  <a href="javascript:void(0)">Pages</a>
+                  <a href="javascript:void(0)">學生園地</a>
                   <ul class="sub-menu">
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="our-services.html">Our Services</a></li>
-                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="activities.html">系上活動</a></li>
+                    <li><a href="our-services.html">系學會</a></li>
+                    <li><a href="#">實驗室介紹</a></li>
                   </ul>
                 </li>
-                <li><a href="index.html">Testimonials</a></li>
-                <li><a href="index.html">Contact Us</a></li>
+                <li class="scroll-to-section">
+                  <a href="#testimonials">畢業進路</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#contact-section">聯絡我們</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#testimonials">面試大補帖</a>
+                </li>
               </ul>
               <a class="menu-trigger">
                 <span>Menu</span>
@@ -305,6 +323,9 @@ https://templatemo.com/tm-573-eduwell
     <script src="assets/js/video.js"></script>
     <script src="assets/js/slick-slider.js"></script>
     <script src="assets/js/custom.js"></script>
+    <!-- customize script by kai -->
+    <script src="customize/baseConfig.js"></script>
+    <!--  -->
     <script>
       //according to loftblog tut
       $(".nav li:first").addClass("active");
