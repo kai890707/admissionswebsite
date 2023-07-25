@@ -1409,7 +1409,7 @@ section.our-team .section-heading p {
   padding: 0px 60px;
 }
 
-section.our-team:before {
+/* section.our-team:before {
   position: absolute;
   content: "";
   background-image: url(../images/footer-left-dec-lightBlue.png);
@@ -1418,7 +1418,7 @@ section.our-team:before {
   width: 267px;
   height: 396px;
   z-index: 1;
-}
+} */
 
 /* section.our-team:after {
   position: absolute;
