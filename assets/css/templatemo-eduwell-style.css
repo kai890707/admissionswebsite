@@ -903,6 +903,7 @@ section.our-courses .naccs .menu div {
   border-radius: 5px !important;
   margin-bottom: 40px;
   font-size: 20px;
+  letter-spacing: 2px;
   color: #111;
   background-color: #fff;
   cursor: pointer;
@@ -977,6 +978,7 @@ section.our-courses ul.nacc li .right-content {
 
 section.our-courses ul.nacc li .right-content h4 {
   font-size: 20px;
+  letter-spacing: 2px;
   color: #111;
   margin-bottom: 25px;
   font-weight: 800;
