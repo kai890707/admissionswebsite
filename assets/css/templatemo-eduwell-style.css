@@ -1168,11 +1168,11 @@ section.contact-us {
 section.contact-us::after {
   position: absolute;
   content: "";
-  background-image: url(../images/footer-left-dec-lightBlue.png);
-  left: 0px;
-  top: 60px;
-  width: 267px;
-  height: 396px;
+  background-image: url(../images/our-courses-right-dec-lightBlue.png);
+  left: 45px;
+  top: -140px;
+  width: 291px;
+  height: 231px;
   z-index: 1;
 }
 
@@ -1359,6 +1359,8 @@ about us page
 */
 
 section.get-info .left-image {
+  position: relative;
+  z-index: 2;
   margin-right: 30px;
 }
 
@@ -1410,15 +1412,15 @@ section.our-team .section-heading p {
 section.our-team:before {
   position: absolute;
   content: "";
-  background-image: url(../images/our-courses-left-dec-lightBlue.png);
-  left: 45px;
-  top: -140px;
-  width: 291px;
-  height: 231px;
+  background-image: url(../images/footer-left-dec-lightBlue.png);
+  left: 0px;
+  top: 60px;
+  width: 267px;
+  height: 396px;
   z-index: 1;
 }
 
-section.our-team:after {
+/* section.our-team:after {
   position: absolute;
   content: "";
   background-image: url(../images/our-courses-right-dec-lightBlue.png);
@@ -1427,7 +1429,7 @@ section.our-team:after {
   width: 291px;
   height: 231px;
   z-index: 1;
-}
+} */
 
 section.our-team .naccs {
   position: relative;
