@@ -219,11 +219,12 @@ body {
 }
 
 .main-button-gradient a {
-  font-size: 13px;
+  font-size: 16px;
+  letter-spacing: 2px;
   color: #fff;
   background: #214252;
   background: linear-gradient(-145deg, #214252 0%, #a5dee4 100%);
-  padding: 12px 30px;
+  padding: 10px 25px;
   display: inline-block;
   border-radius: 5px;
   font-weight: 500;
@@ -238,10 +239,11 @@ body {
 }
 
 .white-button a {
-  font-size: 13px;
+  font-size: 16px;
+  letter-spacing: 2px;
   color: #214252;
   background-color: #fff;
-  padding: 12px 30px;
+  padding: 10px 25px;
   display: inline-block;
   border-radius: 5px;
   font-weight: 500;
@@ -1784,12 +1786,6 @@ section.more-info .count-area-content .count-title {
   position: relative;
   z-index: 1;
 }
-
-/* 
----------------------------------------------
-responsive
---------------------------------------------- 
-*/
 
 body {
   overflow-x: hidden;
