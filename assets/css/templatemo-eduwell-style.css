@@ -1720,6 +1720,8 @@ section.featured-product .info-item h4 {
 
 section.featured-product .product-image {
   margin: 0px 60px;
+  position: relative;
+  z-index: 2;
 }
 
 /*
