@@ -744,7 +744,11 @@ section.main-banner {
 }
 
 .main-banner {
-  padding-top: 180px;
+  padding-top: 30vh;
+  padding-bottom: 50vh;
+  background-image: url(../images/Picture1.png);
+  background-position: right bottom;
+  background-size: cover;
 }
 
 .main-banner .right-image {
@@ -758,7 +762,7 @@ section.main-banner {
   z-index: 2;
 }
 
-.main-banner .right-image::after {
+/* .main-banner .right-image::after {
   position: absolute;
   background-image: url(../images/banner-right-dec-lightBlue.png);
   width: 378px;
@@ -766,7 +770,7 @@ section.main-banner {
   content: "";
   right: -25%;
   z-index: 1;
-}
+} */
 
 .main-banner .header-text::after {
   position: absolute;
@@ -785,7 +789,7 @@ section.main-banner {
   font-size: 17px;
   font-weight: 500;
   text-transform: capitalize;
-  color: #777777;
+  color: white;
 }
 
 .main-banner .header-text h2 {
@@ -793,7 +797,7 @@ section.main-banner {
   z-index: 2;
   margin-top: 20px;
   font-size: 64px;
-  color: #111111;
+  color: white;
   font-weight: 900;
   line-height: 74px;
   margin-bottom: 40px;
@@ -801,7 +805,7 @@ section.main-banner {
 
 .main-banner .header-text h2 em {
   font-style: normal;
-  color: #214252;
+  color: #a5dee4;
 }
 
 .main-banner .main-button-gradient {
