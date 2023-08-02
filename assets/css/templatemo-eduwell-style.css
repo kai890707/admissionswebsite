@@ -1523,6 +1523,7 @@ section.our-team ul.nacc li .right-image {
 section.our-team ul.nacc li .right-image img {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+  padding-top: 70px;
 }
 
 section.our-team ul.nacc li .left-content {
