@@ -1272,11 +1272,12 @@ section.contact-us #contact textarea {
 
 section.contact-us #contact button {
   float: right;
-  font-size: 13px;
+  font-size: 16px;
+  letter-spacing: 2px;
   color: #fff;
   background: #214252;
   background: linear-gradient(-145deg, #214252 0%, #a5dee4 100%);
-  padding: 12px 30px;
+  padding: 10px 25px;
   display: inline-block;
   border-radius: 5px;
   font-weight: 500;
@@ -1607,6 +1608,10 @@ section.our-office .left-info ul li:last-child {
 
 section.our-office .left-info .main-button-gradient {
   margin-top: 40px;
+}
+
+section.our-office .left-info .check {
+  font-family: 微軟正黑體;
 }
 
 section.our-office #video {
