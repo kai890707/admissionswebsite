@@ -344,7 +344,7 @@ https://templatemo.com/tm-573-eduwell
             </div>
           </div>
           <div class="col-lg-4">
-            <form id="contact" action="" method="post">
+            <form id="contact">
               <div class="row">
                 <div class="col-lg-12">
                   <div class="section-heading">
@@ -391,9 +391,10 @@ https://templatemo.com/tm-573-eduwell
                 <div class="col-lg-12">
                   <fieldset>
                     <button
-                      type="submit"
+                      type="button"
                       id="form-submit"
                       class="main-button-gradient"
+                      onclick="encodeFormData()"
                     >
                       發送訊息
                     </button>
@@ -469,6 +470,17 @@ https://templatemo.com/tm-573-eduwell
       crossorigin="anonymous"
     ></script>
     <script>
+      function encodeFormData() {
+        var name = encodeURIComponent(document.getElementById("name").value);
+        var email = encodeURIComponent(document.getElementById("email").value);
+        var message = encodeURIComponent(document.getElementById("message").value);
+        
+        var mailtoLink = "mailto:s9150@mail.nknu.edu.tw"
+            + "?subject=" + name
+            + "&body=Name: " + name + "%0D%0AEmail: " + email + "%0D%0AMessage: " + message;
+        
+        window.location.href = mailtoLink;
+      }
       //according to loftblog tut
       $(".nav li:first").addClass("active");
 

@@ -743,10 +743,15 @@ section.main-banner {
   margin-top: 0px;
 }
 
+.text-shadow {
+  -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.8));
+  filter: drop-shadow(13px 13px 8px rgba(0, 0, 0, 0.8))
+}
+
 .main-banner {
   padding-top: 30vh;
   padding-bottom: 50vh;
-  background-image: url(../images/Picture1.png);
+  background-image: url(../images/activities/image.JPG);
   background-position: right bottom;
   background-size: cover;
 }
